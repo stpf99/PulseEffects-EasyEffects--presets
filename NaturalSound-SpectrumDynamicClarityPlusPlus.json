@@ -541,7 +541,7 @@
             "state": "true",
             "input-gain": "0",
             "output-gain": "0",
-            "kernel-path": "\/home\/ts\/.config\/PulseEffects\/irs\/Natural Sound.irs",
+            "kernel-path": "\/home\/ts\/.config\/PulseEffects\/irs\/NaturalSound-SpectrumDynamicClarityPlusPlus.irs",
             "ir-width": "100"
         },
         "crystalizer": {
