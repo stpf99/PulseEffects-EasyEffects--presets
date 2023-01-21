@@ -1,0 +1,83 @@
+{
+    "output": {
+        "bass_enhancer#0": {
+            "amount": 4.5,
+            "blend": 0.0,
+            "bypass": false,
+            "floor": 10.0,
+            "floor-active": true,
+            "harmonics": 9.999999999999995,
+            "input-gain": -7.5,
+            "output-gain": 9.6,
+            "scope": 130.0
+        },
+        "bass_loudness#0": {
+            "bypass": false,
+            "input-gain": 4.6,
+            "link": -9.1,
+            "loudness": -3.1,
+            "output": -6.0,
+            "output-gain": -2.0
+        },
+        "blocklist": [],
+        "convolver#0": {
+            "autogain": true,
+            "bypass": false,
+            "input-gain": 0.0,
+            "ir-width": 100,
+            "kernel-path": "/home/ts/.var/app/com.github.wwmm.easyeffects/config/easyeffects/irs/NaturalSound-SpectrumDynamicClarityPlusPlus.irs",
+            "output-gain": 0.0
+        },
+        "maximizer#0": {
+            "bypass": false,
+            "ceiling": -1.5000000000000002,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "release": 25.0,
+            "threshold": -0.5
+        },
+        "plugins_order": [
+            "bass_loudness#0",
+            "convolver#0",
+            "speex#0",
+            "stereo_tools#0",
+            "bass_enhancer#0",
+            "maximizer#0"
+        ],
+        "speex#0": {
+            "bypass": true,
+            "enable-agc": true,
+            "enable-denoise": true,
+            "enable-dereverb": false,
+            "input-gain": 0.0,
+            "noise-suppression": -40,
+            "output-gain": 14.1,
+            "vad": {
+                "enable": false,
+                "probability-continue": 90,
+                "probability-start": 95
+            }
+        },
+        "stereo_tools#0": {
+            "balance-in": 0.0,
+            "balance-out": 0.0,
+            "bypass": false,
+            "delay": 0.0,
+            "input-gain": 0.0,
+            "middle-level": 0.0,
+            "middle-panorama": 0.0,
+            "mode": "LR > LR (Stereo Default)",
+            "mutel": false,
+            "muter": false,
+            "output-gain": 0.0,
+            "phasel": true,
+            "phaser": false,
+            "sc-level": 1.0,
+            "side-balance": 0.0,
+            "side-level": 0.0,
+            "softclip": false,
+            "stereo-base": 0.0,
+            "stereo-phase": 0.0
+        }
+    }
+}
